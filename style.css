@@ -1,0 +1,487 @@
+html, body {
+    overflow-x: hidden;
+}
+body{
+    position: relative;
+}
+
+*{
+    margin: 0;
+}
+
+.cont{
+    margin: 0px;
+    display: flex;
+    background-color: #541554;
+    justify-content: space-around;
+}
+.li img{
+    width: 100px;
+}
+.li ul{
+    display: flex;
+    list-style: none;
+    padding-inline: 3vw;
+}
+.li li{
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    padding-inline: 15px;
+    padding-block: 5px;
+}
+.li a{
+    text-decoration: none;
+    color: white;
+}
+.li2 ul{
+    display: flex;
+    list-style: none;
+}
+.li2 img{
+    width: 20px;
+}
+.li2 a{
+    text-decoration: none;
+    color: white;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.li2 li{
+    padding-block: 5px;
+    padding-inline: 0.8vw;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+
+}
+.li2 button{
+    padding-block: 10px;
+    padding-inline: 20px;
+    border-radius: 5px;
+    border: none;
+    background: white;
+}
+.li2 .button{
+    padding-block: 0px;
+}
+.li2 button{
+    font-weight: bold;
+    color: #611f69;
+}
+/* Next Part */
+
+
+
+.box1{
+    display: flex;
+    background: #541554;
+    padding: 3vw;
+    padding-bottom: 70px;
+    justify-content: space-between;
+}
+video{
+    width: 650px;
+    padding-left: 20px;
+}
+.box1 .left{
+    width: 30vw;
+    min-width: 50vw;
+}
+
+.left #unlock{
+    color: #ffffff;
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 60.2821px;
+}
+.left #productivity{
+    color:#ecb22e!important;
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 60.2821px;
+}
+.left #connect{
+    color: #ffffff;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-size: 19.6282px;
+    padding-block: 20px;
+}
+.box1 #slack{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26.66px;
+    letter-spacing: -0.2px;
+    padding-bottom: 50px;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+.left #button{
+    padding-block:20px;    
+}
+.left #button button{
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    padding-block: 20px;
+}
+
+.left #button ul{
+    padding-left: 0;
+    display: flex;
+}
+.left #button li{
+    padding-inline: 15px;
+    padding-left: 0;
+}
+.left #button1{
+    color: #541554;
+    background: white;
+    border: none;
+    border-radius: 3px;
+}
+.left #button2{
+    background: #4285f4;
+    color: #ffffff;
+    border-radius: 3px;
+    border: none;
+}
+@media (max-width: 1200px){
+    .left #button ul{
+        display: block;
+    }
+    .left #button li{
+        padding-bottom: 10px;
+    }
+    .left #button1{
+        width: 50vw;
+    }
+    .left #button2{
+        width: 50vw;
+    }
+}
+@media (max-width: 1020px){
+    .box1 {
+        display: block;
+        align-items: center;
+    }
+    .left #button1{
+        display: block;
+        width: 70vw;
+    }
+    .left #button2{
+        width: 70vw;
+    }
+}
+.box1 ul{
+    max-width: 50vw;
+    list-style: none;
+}
+
+/* next part */
+
+
+
+.box2{
+    background: #F4EDE4!important;
+}
+.box2 #desc{
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    line-height: 1.125;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+.box2 .logo{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-inline: 3vw;
+}
+.logo li img{
+    padding: 30px;
+    height: 40px;
+    padding-block: 10px;
+}
+.box2 #heading{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -.08px;
+    line-height: 56px;
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+.box2 #txt{
+    font-size: 17px;
+    font-weight: 400px;
+    letter-spacing: -0.2px;
+    line-height: 25.9992px;
+    -webkit-font-smoothing: antialised;
+    margin-bottom: 16px;
+    margin-block-end: 16px;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+.box2 #link{
+    font-size: 18px;
+    font-weight: 400;
+    height: 25.9992;
+    color: rgb(18, 100, 163);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+.box2 #link :hover{
+    text-decoration: underline;
+}
+
+
+.main2{
+    display: flex;
+    padding-block:50px;
+}
+.main2 .leftvid video{
+    width: 45vw;
+    min-width: 400px;
+    padding-top: 1vw;
+}
+.main2 .righttxt{
+    padding-top: 40px;
+}
+.main2 ul{
+    list-style: none;
+}
+@media (max-width:1100px){
+    .main2{
+        display: block;
+    }
+    .main2 .righttxt{
+        padding-inline: 15vw;
+    }
+    .main2 .leftvid video{
+        width: 60vw;
+    }
+}
+
+
+
+.main3{
+    margin: 0;
+    display: flex;
+    padding-block: 50px;
+}
+.main3 ul{
+    list-style: none;
+}
+.main3 .righttvid video{
+    width: 45vw;
+    padding-top: 1vw;
+}
+.main3 .lefttxt{
+    padding-top: 40px;
+}
+@media (max-width:1100px){
+    .main3{
+        display: block;
+    }
+    .main3 .lefttxt{
+        padding-inline: 15vw;
+        padding-bottom: 50px;
+    }
+    .main3 .rightvid video{
+        width: 60vw;
+        padding-left: 40vw;
+        
+    }
+
+}
+.main4{
+    display: flex;
+}
+.main4 ul{
+    list-style: none;
+}
+
+.box3{
+    background:#ffffff;
+    padding-block:100px;
+}
+.box3 .teams{
+    display: block;
+    font-size: 2.2vw;
+    font-weight: 700;
+    padding-bottom: 10px;
+    letter-spacing: -0.8px;
+    line-height: 56px;
+    margin-block-end: 16px;
+    margin-block-start: 50px;
+    margin-bottom: 16px;
+    text-align: center;
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+.box3 .desc{
+    font-size: 17px;
+    font-weight: 400;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    letter-spacing: normal;
+    margin-block-end: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+    padding-inline: 2vw;
+}
+.box3 .button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box3 .button{
+    padding: 3vw;
+}
+.box3 .button1 button{
+    padding-block: 15px;
+    padding-inline: 50px;
+    border-radius: 5px;
+    border-color: #611f69;
+    background: #611f69;
+    color: white;
+}
+.box3 .button1{
+    padding-inline: 1vh;
+}
+.box3 .button2{
+    padding-inline: 1vh;
+}
+.box3 .button2 button{
+    padding-block: 15px;
+    padding-inline: 50px;
+    border-radius: 5px;
+    border-color: #611f69;
+    background: #ffffff;
+    color: #611f69;
+}
+
+#percentage{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+#percentage .no{
+    font-size: 60px;
+    font-weight: bolder;
+    color: #611f69;
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+#percentage  .txt{
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    font-size: calc(.875rem + (0 * (100vw - 400px)/ 624))
+}
+@media (max-width: 650px) {
+    #percentage{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+    }
+    #percentage .no{
+        font-size: 60px;
+        font-weight: bolder;
+        color: #611f69;
+        font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    }
+}
+
+.main5{
+    display: flex;
+}
+.main5 .righttxt{
+    list-style: none;
+    padding-top: 1vw;
+}
+.main5 video{
+    width: 50vw;
+    padding-block-start: 2vw;
+    border-top-right-radius: 20vw;
+    border-bottom-right-radius: 20vw;
+}
+.main5 #we{
+    font-size: 1.75rem;
+    font-family: Slack-Larsseit,"Helvetica Neue","Segoe UI",Tahoma,Arial,sans-serif;
+    letter-spacing: -.3px;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+.main5 #mark{
+    font-weight: 700;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+.main5 #senior{
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+.main5 #link{
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    padding-block: 3vh;
+    font-size: 20px;
+    color: #1264a3;   
+}
+@media (max-width: 1200px){
+    .main5{
+        display: inline;
+    }
+    .main5 video{
+        width: 80vw;
+        border-top-right-radius: 20vw;
+        border-bottom-right-radius: 20vw;
+        padding-block-start: 2vw;
+    }
+}
+/* box4 */
+
+.box4{
+    clip-path: ellipse(90% 100% at center top);
+    background-color: #4a154b;
+    padding-block:75px ;
+    margin-top: 2vw;
+}
+.box4 .welcome{
+    display: block;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight: 700;
+    line-height: 1.1875;
+    text-align: center;
+    padding-inline: 20px;
+}
+.box4 button{
+    font-size: 15px;
+    align-items: center;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight: 600;
+}
+.box4 .button1 button{
+    background: #ffffff;
+    color: #4a154b;
+}
+.box4 .button2 button{
+    background-color: #4a154b;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+@media (max-width: 1000px){
+    .box4 .button1 button{
+        width: 70vw;
+        border-color: white;
+    }
+    .box4 .button1{    
+        padding-bottom: 20px;
+    }
+    .box4 .button2 button{
+        width: 70vw;
+    } 
+}
+
